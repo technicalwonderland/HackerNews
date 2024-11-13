@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7CC2790B-6DB9-4716-8F58-1C4144CCAFC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNews.API", "src\HackerNews.API\HackerNews.API.csproj", "{F695AD9B-266B-412F-859F-901C69E577C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNews.Application", "src\HackerNews.Application\HackerNews.Application.csproj", "{58075312-B7B9-4DD6-A774-A136D9ACC025}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNews.Domain", "src\HackerNews.Domain\HackerNews.Domain.csproj", "{5AA7A11A-7E25-4635-AD5A-DD57EC1F7A70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNews.Infrastructure", "src\HackerNews.Infrastructure\HackerNews.Infrastructure.csproj", "{CA48050F-2E27-4BE0-88FF-7D7D9F758348}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A7BD1C3B-F033-4FA9-9B72-C8476ADA0EFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNews.Tests.Integration", "tests\HackerNews.Tests.Integration\HackerNews.Tests.Integration.csproj", "{6D92CB6A-DEBF-4731-B44F-5A6F725A1CC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HackerNews.Tests.Unit", "tests\HackerNews.Tests.Unit\HackerNews.Tests.Unit.csproj", "{F04D2027-6D34-448D-AA18-C3EE9191E2DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F695AD9B-266B-412F-859F-901C69E577C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F695AD9B-266B-412F-859F-901C69E577C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F695AD9B-266B-412F-859F-901C69E577C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F695AD9B-266B-412F-859F-901C69E577C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58075312-B7B9-4DD6-A774-A136D9ACC025}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58075312-B7B9-4DD6-A774-A136D9ACC025}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58075312-B7B9-4DD6-A774-A136D9ACC025}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58075312-B7B9-4DD6-A774-A136D9ACC025}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA7A11A-7E25-4635-AD5A-DD57EC1F7A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA7A11A-7E25-4635-AD5A-DD57EC1F7A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA7A11A-7E25-4635-AD5A-DD57EC1F7A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA7A11A-7E25-4635-AD5A-DD57EC1F7A70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA48050F-2E27-4BE0-88FF-7D7D9F758348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA48050F-2E27-4BE0-88FF-7D7D9F758348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA48050F-2E27-4BE0-88FF-7D7D9F758348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA48050F-2E27-4BE0-88FF-7D7D9F758348}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D92CB6A-DEBF-4731-B44F-5A6F725A1CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D92CB6A-DEBF-4731-B44F-5A6F725A1CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D92CB6A-DEBF-4731-B44F-5A6F725A1CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D92CB6A-DEBF-4731-B44F-5A6F725A1CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F04D2027-6D34-448D-AA18-C3EE9191E2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04D2027-6D34-448D-AA18-C3EE9191E2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04D2027-6D34-448D-AA18-C3EE9191E2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04D2027-6D34-448D-AA18-C3EE9191E2DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F695AD9B-266B-412F-859F-901C69E577C9} = {7CC2790B-6DB9-4716-8F58-1C4144CCAFC6}
+		{58075312-B7B9-4DD6-A774-A136D9ACC025} = {7CC2790B-6DB9-4716-8F58-1C4144CCAFC6}
+		{5AA7A11A-7E25-4635-AD5A-DD57EC1F7A70} = {7CC2790B-6DB9-4716-8F58-1C4144CCAFC6}
+		{CA48050F-2E27-4BE0-88FF-7D7D9F758348} = {7CC2790B-6DB9-4716-8F58-1C4144CCAFC6}
+		{6D92CB6A-DEBF-4731-B44F-5A6F725A1CC0} = {A7BD1C3B-F033-4FA9-9B72-C8476ADA0EFA}
+		{F04D2027-6D34-448D-AA18-C3EE9191E2DF} = {A7BD1C3B-F033-4FA9-9B72-C8476ADA0EFA}
+	EndGlobalSection
+EndGlobal
