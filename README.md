@@ -19,6 +19,9 @@ dotnet run --project ./src/HackerNews.API/HackerNews.API.csproj --launch-profile
 ```
 
 ## Considerations
+Assumption:
+- Replies to comments are not included into `commentCount`, it's just counting number of `kids`
+
 Things to improve if I had more time:
 - Cache single elements by id (now you can query 10 elements then 11, and previous 10 will be fetched)!
 - More tests
